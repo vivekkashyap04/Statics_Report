@@ -39,15 +39,14 @@ The project structure follows the standard Create React App (CRA) setup:
 The application renders one main components:
 - `StatisticsTable`: Displays statistical measures for Flavanoids and Gamma.
 
-You can modify or integrate these components based on your requirements or dataset.
 
 ## Screenshots
 
 ![Flavanoids Statistics](link_to_flavanoids_screenshot.png)
-*Flavanoids Statistics Component*
+![Alt text](<Screenshot 2023-12-26 023219.png>)
 
 ![Gamma Statistics](link_to_gamma_screenshot.png)
-*Gamma Statistics Component*
+![Alt text](<Screenshot 2023-12-26 023632.png>)
 
 ## Contributing
 

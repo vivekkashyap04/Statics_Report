@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { WineData } from './types';
 import wineData from './wineData.json'; // Importing the JSON data directly
 import { calculateFlavanoidsStatsByClass, calculateGammaStatsByClass, ClassStats } from './statsUtils';
