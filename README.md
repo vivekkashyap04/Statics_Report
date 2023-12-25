@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Wine Statistics App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application calculates statistical measures for the Wine Data Set and displays them using React components.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Setup](#setup)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This React application is designed to calculate statistical measures (mean, median, mode) for Flavanoids and Gamma properties of the Wine Data Set. It utilizes TypeScript, React (CRA), and Yarn as package manager.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup
 
-### `npm test`
+To run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies using `yarn install`.
+4. Start the application with `yarn start`.
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project structure follows the standard Create React App (CRA) setup:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `/src`: Contains the source code files.
+  - `App.tsx`: Main component rendering StatisticsTable  components.
+  - `StatisticsTable.tsx`: Component to display Flavanoids and Gamma statistics.
+  - `statsUtils.ts`: Utility functions for statistical calculations.
+- `/public`: Contains public assets and HTML files.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+The application renders one main components:
+- `StatisticsTable`: Displays statistical measures for Flavanoids and Gamma.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can modify or integrate these components based on your requirements or dataset.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Flavanoids Statistics](link_to_flavanoids_screenshot.png)
+*Flavanoids Statistics Component*
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Gamma Statistics](link_to_gamma_screenshot.png)
+*Gamma Statistics Component*
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Feel free to submit issues or pull requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).

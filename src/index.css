@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(102, 103, 185);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+  color: rgb(22, 204, 204);
+  width:400px;
+}
+td,th{
+  margin:5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+th{
+  color: black;
 }
