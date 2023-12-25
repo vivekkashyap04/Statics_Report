@@ -42,10 +42,10 @@ The application renders one main components:
 
 ## Screenshots
 
-![Flavanoids Statistics](link_to_flavanoids_screenshot.png)
+Flavanoids Statistic
 ![Alt text](<Screenshot 2023-12-26 023219.png>)
 
-![Gamma Statistics](link_to_gamma_screenshot.png)
+Gamma Statistics
 ![Alt text](<Screenshot 2023-12-26 023632.png>)
 
 ## Contributing
